@@ -34,10 +34,10 @@ body {
     div.container {
         background: #000 50% 0 no-repeat;
         background-size: cover;
-        -moz-background-size: cover;
         height: 100%;
         position: fixed;
         width: 100%;
+        -moz-background-size: cover;
 
         &#contacts {
             background-image: url('../images/contacts.jpg');
@@ -133,11 +133,82 @@ body {
     bottom: 25px;
     left: 25px;
 
-    .logo {
+    span.logo {
+        display: inline-block;
         margin-right: 15px;
+        position: relative;
 
         img {
             vertical-align: middle;
+        }
+        a#logo {
+            display: inline-block;
+        }
+        div.awesome {
+            background: rgba(245, 245, 245, .95);
+            border: 1px solid #E3E3E3;
+            border-bottom: 0;
+            display: none;
+            height: 175px;
+            left: -18px;
+            position: absolute;
+            top: -190px;
+            width: 276px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+
+            span.arrow {
+                border-top: 12px solid rgba(245, 245, 245, .95);
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                display: block;
+                left: 126px;
+                height: 0;
+                position: absolute;
+                top: 175px;
+                width: 0;
+            }
+            header {
+                text-align: center;
+                position: relative;
+
+                h1 {
+                    color: #666666;
+                    font: bold 14px Helvetica;
+                    margin: 10px 0 3px 0;
+                    text-shadow: 0 1px 1px #FFFFFF;
+                }
+                h2 {
+                    color: #999999;
+                    font: bold 12px Helvetica;
+                    margin: 0;
+                    text-shadow: 0 1px 1px #FFFFFF;
+                }
+                a.close {
+                    background: transparent url('../images/close.png') top left no-repeat;
+                    display: block;
+                    height: 12px;
+                    position: absolute;
+                    right: 7px;
+                    top: -5px;
+                    width: 12px;
+                }
+            }
+            section.embed {
+                
+            }
+            footer {
+                color: #999999;
+                font: bold 12px Helvetica;
+                margin-top: 8px;
+                text-align: center;
+                text-shadow: 0 1px 1px #FFFFFF;
+
+                a {
+                    color: #666666;
+                }
+            }
         }
     }
     .twitter {

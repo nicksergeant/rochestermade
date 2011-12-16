@@ -2,6 +2,11 @@ $(function() {
     setTimeout(function() {
         rotate();
     }, 6000);
+
+    $('a#logo').click(function() {
+        $('div.awesome').show();
+        return false;
+    });
 });
 
 function rotate() {
