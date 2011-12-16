@@ -1,6 +1,6 @@
 div#text{left:25px;position:absolute;top:100px;}div#text div{display:none;}
 div#text span.title{background-color:rgba(0, 0, 0, 0.75);color:#FFF;font:italic 24px/39px Georgia,serif;padding:6px 12px;text-shadow:0px -1px 1px #000000;}
-div#text span.subtitle{background-color:rgba(0, 0, 0, 0.75);color:#CCC;font:italic 16px/31px Georgia,serif;padding:6px 12px;text-shadow:0px -1px 1px #000000;}
+div#text span.subtitle{background-color:rgba(0, 0, 0, 0.75);color:#CCC;display:inline-block;font:italic 16px/31px Georgia,serif;margin:0;padding:0px 12px;text-shadow:0px -1px 1px #000000;width:72px;}
 body{background:#000;height:100%;margin:0;position:fixed;width:100%;}body div.container{background:#000000 50% 0 no-repeat;background-size:cover;-moz-background-size:cover;height:100%;position:fixed;width:100%;}body div.container#contacts{background-image:url('../images/contacts.jpg');}body div.container#contacts div.contacts{display:block;}
 body div.container#copiers{background-image:url('../images/copiers.jpg');}body div.container#copiers div.copiers{display:block;}
 body div.container#homemovies{background-image:url('../images/homemovies.jpg');}body div.container#homemovies div.homemovies{display:block;}
