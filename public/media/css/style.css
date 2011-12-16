@@ -1,0 +1,18 @@
+div#text{left:25px;position:absolute;top:100px;}div#text div{display:none;}
+div#text span.title{background-color:rgba(0, 0, 0, 0.75);color:#FFF;font:italic 24px/39px Georgia,serif;padding:6px 12px;text-shadow:0px -1px 1px #000000;}
+div#text span.subtitle{background-color:rgba(0, 0, 0, 0.75);color:#CCC;font:italic 16px/31px Georgia,serif;padding:6px 12px;text-shadow:0px -1px 1px #000000;}
+body{background:#000;height:100%;margin:0;position:fixed;width:100%;}body div.container{background:#000000 50% 0 no-repeat;background-size:cover;-moz-background-size:cover;height:100%;position:fixed;width:100%;}body div.container#contacts{background-image:url('../images/contacts.jpg');}body div.container#contacts div.contacts{display:block;}
+body div.container#copiers{background-image:url('../images/copiers.jpg');}body div.container#copiers div.copiers{display:block;}
+body div.container#homemovies{background-image:url('../images/homemovies.jpg');}body div.container#homemovies div.homemovies{display:block;}
+body div.container#jolt{background-image:url('../images/jolt.jpg');}body div.container#jolt div.jolt{display:block;}
+body div.container#jello{background-image:url('../images/jello.jpg');}body div.container#jello div.jello{display:block;}
+body div.container#mouse{background-image:url('../images/mouse.jpg');}body div.container#mouse div.mouse{display:block;}
+body div.container#pc{background-image:url('../images/pc.jpg');}body div.container#pc div.pc{display:block;}
+body div.container#photography{background-image:url('../images/photography.jpg');}body div.container#photography div.photography{display:block;}
+body div.container#rayban{background-image:url('../images/rayban.jpg');}body div.container#rayban div.rayban{display:block;}
+body div.container#rochester{background-image:url('../images/rochester.jpg');}body div.container#rochester div.rochester{display:block;}
+body div.container#votingmachine{background-image:url('../images/votingmachine.jpg');}body div.container#votingmachine div.votingmachine{display:block;}
+body div.container#womensrights{background-image:url('../images/womensrights.jpg');}body div.container#womensrights div.womensrights{display:block;}
+body div.preload{display:none;}
+.footer{position:absolute;bottom:25px;left:25px;}.footer .logo{margin-right:15px;}.footer .logo img{vertical-align:middle;}
+.footer .twitter{font:bold 12px Helvetica, serif;text-shadow:0px -1px 1px #000000;position:relative;top:4px;}.footer .twitter a{color:#FFF;text-decoration:none;}.footer .twitter a:hover{color:#C0B18E;text-decoration:none;}
