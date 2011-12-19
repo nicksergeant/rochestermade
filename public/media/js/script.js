@@ -4,7 +4,7 @@ $(function() {
     }, 6000);
 
     $('a#logo').click(function() {
-        $('div.awesome').show();
+        //$('div.awesome').show();
         return false;
     });
 });
