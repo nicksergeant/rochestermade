@@ -17,7 +17,7 @@ $(function() {
     $awesome = $('div.awesome');
 
     $('a#logo').click(function() {
-        //$awesome.fadeToggle(100);
+        $awesome.fadeToggle(100);
         return false;
     });
     $('a.close', $awesome).click(function() {
