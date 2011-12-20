@@ -1,3 +1,10 @@
+.group:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 div#text {
     left: 25px;    
     position: absolute;
@@ -156,10 +163,10 @@ body {
             border: 1px solid #E3E3E3;
             border-bottom: 0;
             display: none;
-            height: 175px;
+            height: 215px;
             left: -18px;
             position: absolute;
-            top: -190px;
+            top: -230px;
             width: 276px;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
@@ -173,7 +180,7 @@ body {
                 left: 126px;
                 height: 0;
                 position: absolute;
-                top: 175px;
+                top: 215px;
                 width: 0;
             }
             header {
@@ -203,17 +210,65 @@ body {
                 }
             }
             section.embed {
-                
+                padding: 10px 10px 9px 10px;
+
+                div.choose {
+
+                    a {
+                        display: block;
+                        float: left;
+                        font: bold 11px Helvetica;
+                        padding: 3px 0;
+                        text-align: center;
+                        text-decoration: none;
+                        width: 128px;
+
+                        &.dark-on-light {
+                            background: white;
+                            color: #686868;
+                            -webkit-border-radius: 3px 0 0 0;
+                            -moz-border-radius: 3px 0 0 0;
+                            border-radius: 3px 0 0 0;
+                        }
+                        &.light-on-dark {
+                            background: #777777;
+                            color: #FFF;
+                            -webkit-border-radius: 0 3px 0 0;
+                            -moz-border-radius: 0 3px 0 0;
+                            border-radius: 0 3px 0 0;
+                        }
+                    }
+                }
+                textarea {
+                    background: white;
+                    border-radius: 0 0 5px 5px;
+                    border: none;
+                    height: 80px;
+                    padding: 10px;
+                    width: 236px;
+                    -webkit-border-radius: 0 0 5px 5px;
+                    -moz-border-radius: 0 0 5px 5px;
+
+                    &.dark-on-light {
+                        background: white;
+                        color: #686868;
+                    }
+                    &.light-on-dark {
+                        background: #777777;
+                        color: #FFF;
+                        display: none;
+                    }
+                }
             }
             footer {
                 color: #999999;
                 font: bold 12px Helvetica;
-                margin-top: 8px;
                 text-align: center;
                 text-shadow: 0 1px 1px #FFFFFF;
 
                 a {
                     color: #666666;
+                    padding: 0 3px;
                 }
             }
         }

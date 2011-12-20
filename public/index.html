@@ -11,6 +11,15 @@
     <script type="text/javascript" src="media/js/jquery.js"></script>
     <script type="text/javascript" src="media/js/script.js"></script>
 
+    <!--[if IE]>
+        <style type="text/css">
+            .group {
+                display: block;
+                zoom: 1;
+            }
+        </style>
+    <![endif]-->
+
     <!--[if lt IE 9]>
         <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -87,7 +96,12 @@
                     <a href="#" class="close"></a>
                 </header>
                 <section class="embed">
-                    
+                    <div class="choose group">
+                        <a href="#" class="dark-on-light">Dark on Light</a>
+                        <a href="#" class="light-on-dark">Light on Dark</a>
+                    </div>
+                    <textarea class="dark-on-light"><a href="http://rochestermade.com" title="Rochester Made"><img src="http://rochestermade.com/media/images/rochester-made-dark-on-light.png" alt="Rochester Made" title="Rochester Made" /></a></textarea>
+                    <textarea class="light-on-dark"><a href="http://rochestermade.com" title="Rochester Made"><img src="http://rochestermade.com/media/images/rochester-made-light-on-dark.png" alt="Rochester Made" title="Rochester Made" /></a></textarea>
                 </section>
                 <footer>
                     Or download as: <a href="#">.PNG</a> <a href="#">.EPS</a>

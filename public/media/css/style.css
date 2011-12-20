@@ -1,211 +1,30 @@
-div#text {
-  left: 25px;
-  position: absolute;
-  top: 100px;
-}
-div#text div {
-  display: none;
-}
-div#text span.title {
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #FFF;
-  font: italic 24px/39px Georgia, serif;
-  padding: 6px 12px;
-  text-shadow: 0px -1px 1px #000000;
-}
-div#text span.subtitle {
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #CCC;
-  display: inline-block;
-  font: italic 16px/31px Georgia, serif;
-  margin: 0;
-  padding: 0px 12px;
-  text-shadow: 0px -1px 1px #000000;
-  width: 72px;
-}
-body {
-  background: #000;
-  height: 100%;
-  margin: 0;
-  position: fixed;
-  width: 100%;
-}
-body div.container {
-  background: #000000 50% 0 no-repeat;
-  background-size: cover;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  -moz-background-size: cover;
-}
-body div.container#contacts {
-  background-image: url('../images/contacts.jpg');
-}
-body div.container#contacts div.contacts {
-  display: block;
-}
-body div.container#northstar {
-  background-image: url('../images/northstar.jpg');
-}
-body div.container#northstar div.northstar {
-  display: block;
-}
-body div.container#copiers {
-  background-image: url('../images/copiers.jpg');
-}
-body div.container#copiers div.copiers {
-  display: block;
-}
-body div.container#homemovies {
-  background-image: url('../images/homemovies.jpg');
-}
-body div.container#homemovies div.homemovies {
-  display: block;
-}
-body div.container#jolt {
-  background-image: url('../images/jolt.jpg');
-}
-body div.container#jolt div.jolt {
-  display: block;
-}
-body div.container#jello {
-  background-image: url('../images/jello.jpg');
-}
-body div.container#jello div.jello {
-  display: block;
-}
-body div.container#mouse {
-  background-image: url('../images/mouse.jpg');
-}
-body div.container#mouse div.mouse {
-  display: block;
-}
-body div.container#pc {
-  background-image: url('../images/pc.jpg');
-}
-body div.container#pc div.pc {
-  display: block;
-}
-body div.container#photography {
-  background-image: url('../images/photography.jpg');
-}
-body div.container#photography div.photography {
-  display: block;
-}
-body div.container#rayban {
-  background-image: url('../images/rayban.jpg');
-}
-body div.container#rayban div.rayban {
-  display: block;
-}
-body div.container#rochester {
-  background-image: url('../images/rochester.jpg');
-}
-body div.container#rochester div.rochester {
-  display: block;
-}
-body div.container#votingmachine {
-  background-image: url('../images/votingmachine.jpg');
-}
-body div.container#votingmachine div.votingmachine {
-  display: block;
-}
-body div.container#womensrights {
-  background-image: url('../images/womensrights.jpg');
-}
-body div.container#womensrights div.womensrights {
-  display: block;
-}
-body div.preload {
-  display: none;
-}
-.footer {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-}
-.footer span.logo {
-  display: inline-block;
-  margin-right: 15px;
-  position: relative;
-}
-.footer span.logo img {
-  vertical-align: middle;
-}
-.footer span.logo a#logo {
-  display: inline-block;
-}
-.footer span.logo div.awesome {
-  background: rgba(245, 245, 245, 0.95);
-  border: 1px solid #E3E3E3;
-  border-bottom: 0;
-  display: none;
-  height: 175px;
-  left: -18px;
-  position: absolute;
-  top: -190px;
-  width: 276px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.footer span.logo div.awesome span.arrow {
-  border-top: 12px solid rgba(245, 245, 245, 0.95);
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  display: block;
-  left: 126px;
-  height: 0;
-  position: absolute;
-  top: 175px;
-  width: 0;
-}
-.footer span.logo div.awesome header {
-  text-align: center;
-  position: relative;
-}
-.footer span.logo div.awesome header h1 {
-  color: #666666;
-  font: bold 14px Helvetica;
-  margin: 10px 0 3px 0;
-  text-shadow: 0 1px 1px #FFFFFF;
-}
-.footer span.logo div.awesome header h2 {
-  color: #999999;
-  font: bold 12px Helvetica;
-  margin: 0;
-  text-shadow: 0 1px 1px #FFFFFF;
-}
-.footer span.logo div.awesome header a.close {
-  background: transparent url('../images/close.png') top left no-repeat;
-  display: block;
-  height: 12px;
-  position: absolute;
-  right: 7px;
-  top: -5px;
-  width: 12px;
-}
-.footer span.logo div.awesome footer {
-  color: #999999;
-  font: bold 12px Helvetica;
-  margin-top: 8px;
-  text-align: center;
-  text-shadow: 0 1px 1px #FFFFFF;
-}
-.footer span.logo div.awesome footer a {
-  color: #666666;
-}
-.footer .twitter {
-  font: bold 12px Helvetica, serif;
-  text-shadow: 0px -1px 1px #000000;
-  position: relative;
-  top: 4px;
-}
-.footer .twitter a {
-  color: #FFF;
-  text-decoration: none;
-}
-.footer .twitter a:hover {
-  color: #C0B18E;
-  text-decoration: none;
-}
+.group:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+div#text{left:25px;position:absolute;top:100px;}div#text div{display:none;}
+div#text span.title{background-color:rgba(0, 0, 0, 0.75);color:#FFF;font:italic 24px/39px Georgia,serif;padding:6px 12px;text-shadow:0px -1px 1px #000000;}
+div#text span.subtitle{background-color:rgba(0, 0, 0, 0.75);color:#CCC;display:inline-block;font:italic 16px/31px Georgia,serif;margin:0;padding:0px 12px;text-shadow:0px -1px 1px #000000;width:72px;}
+body{background:#000;height:100%;margin:0;position:fixed;width:100%;}body div.container{background:#000000 50% 0 no-repeat;background-size:cover;height:100%;position:fixed;width:100%;-moz-background-size:cover;}body div.container#contacts{background-image:url('../images/contacts.jpg');}body div.container#contacts div.contacts{display:block;}
+body div.container#northstar{background-image:url('../images/northstar.jpg');}body div.container#northstar div.northstar{display:block;}
+body div.container#copiers{background-image:url('../images/copiers.jpg');}body div.container#copiers div.copiers{display:block;}
+body div.container#homemovies{background-image:url('../images/homemovies.jpg');}body div.container#homemovies div.homemovies{display:block;}
+body div.container#jolt{background-image:url('../images/jolt.jpg');}body div.container#jolt div.jolt{display:block;}
+body div.container#jello{background-image:url('../images/jello.jpg');}body div.container#jello div.jello{display:block;}
+body div.container#mouse{background-image:url('../images/mouse.jpg');}body div.container#mouse div.mouse{display:block;}
+body div.container#pc{background-image:url('../images/pc.jpg');}body div.container#pc div.pc{display:block;}
+body div.container#photography{background-image:url('../images/photography.jpg');}body div.container#photography div.photography{display:block;}
+body div.container#rayban{background-image:url('../images/rayban.jpg');}body div.container#rayban div.rayban{display:block;}
+body div.container#rochester{background-image:url('../images/rochester.jpg');}body div.container#rochester div.rochester{display:block;}
+body div.container#votingmachine{background-image:url('../images/votingmachine.jpg');}body div.container#votingmachine div.votingmachine{display:block;}
+body div.container#womensrights{background-image:url('../images/womensrights.jpg');}body div.container#womensrights div.womensrights{display:block;}
+body div.preload{display:none;}
+.footer{position:absolute;bottom:25px;left:25px;}.footer span.logo{display:inline-block;margin-right:15px;position:relative;}.footer span.logo img{vertical-align:middle;}
+.footer span.logo a#logo{display:inline-block;}
+.footer span.logo div.awesome{background:rgba(245, 245, 245, 0.95);border:1px solid #E3E3E3;border-bottom:0;display:none;height:215px;left:-18px;position:absolute;top:-230px;width:276px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}.footer span.logo div.awesome span.arrow{border-top:12px solid rgba(245, 245, 245, 0.95);border-left:12px solid transparent;border-right:12px solid transparent;display:block;left:126px;height:0;position:absolute;top:215px;width:0;}
+.footer span.logo div.awesome header{text-align:center;position:relative;}.footer span.logo div.awesome header h1{color:#666666;font:bold 14px Helvetica;margin:10px 0 3px 0;text-shadow:0 1px 1px #FFFFFF;}
+.footer span.logo div.awesome header h2{color:#999999;font:bold 12px Helvetica;margin:0;text-shadow:0 1px 1px #FFFFFF;}
+.footer span.logo div.awesome header a.close{background:transparent url('../images/close.png') top left no-repeat;display:block;height:12px;position:absolute;right:7px;top:-5px;width:12px;}
+.footer span.logo div.awesome section.embed{padding:10px 10px 9px 10px;}.footer span.logo div.awesome section.embed div.choose a{display:block;float:left;font:bold 11px Helvetica;padding:3px 0;text-align:center;text-decoration:none;width:128px;}.footer span.logo div.awesome section.embed div.choose a.dark-on-light{background:white;color:#686868;-webkit-border-radius:3px 0 0 0;-moz-border-radius:3px 0 0 0;border-radius:3px 0 0 0;}
+.footer span.logo div.awesome section.embed div.choose a.light-on-dark{background:#777777;color:#FFF;-webkit-border-radius:0 3px 0 0;-moz-border-radius:0 3px 0 0;border-radius:0 3px 0 0;}
+.footer span.logo div.awesome section.embed textarea{background:white;border-radius:0 0 5px 5px;border:none;height:80px;padding:10px;width:236px;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;}.footer span.logo div.awesome section.embed textarea.dark-on-light{background:white;color:#686868;}
+.footer span.logo div.awesome section.embed textarea.light-on-dark{background:#777777;color:#FFF;display:none;}
+.footer span.logo div.awesome footer{color:#999999;font:bold 12px Helvetica;text-align:center;text-shadow:0 1px 1px #FFFFFF;}.footer span.logo div.awesome footer a{color:#666666;padding:0 3px;}
+.footer .twitter{font:bold 12px Helvetica, serif;text-shadow:0px -1px 1px #000000;position:relative;top:4px;}.footer .twitter a{color:#FFF;text-decoration:none;}.footer .twitter a:hover{color:#C0B18E;text-decoration:none;}
