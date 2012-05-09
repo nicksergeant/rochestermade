@@ -38,7 +38,6 @@ $(function() {
     });
     $('html').click(function() {
         $awesome.hide();
-        return false;
     });
 });
 
