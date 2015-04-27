@@ -1,18 +1,18 @@
 $(function() {
 
-    // var slide = getParameterByName('slide');
+    var slide = getParameterByName('slide');
 
-    // if (slide !== '') {
-    //     if ($('div.' + slide).length) {
-    //         $('div.current').removeClass('current');
-    //         $('div.' + slide).addClass('current');
-    //         $('div.container').attr('id', slide);
-    //     } else {
-    //         init();
-    //     }
-    // } else {
-    //     init();
-    // }
+    if (slide !== '') {
+        if ($('div.' + slide).length) {
+            $('div.current').removeClass('current');
+            $('div.' + slide).addClass('current');
+            $('div.container').attr('id', slide);
+        } else {
+            init();
+        }
+    } else {
+        init();
+    }
 
     $awesome = $('div.awesome');
 
@@ -41,42 +41,42 @@ $(function() {
     });
 });
 
-// function init() {
-//     setTimeout(function() {
-//         rotate();
-//     }, 6000);
-// }
-// function rotate() {
+function init() {
+    setTimeout(function() {
+        rotate();
+    }, 6000);
+}
+function rotate() {
 
-//     var $container = $('div.container');
-//     var $current = $('div.current');
-//     var $next = $current.next();
+    var $container = $('div.container');
+    var $current = $('div.current');
+    var $next = $current.next();
 
-//     if ($next.length === 0) {
-//         $next = $('div.rochester');
-//     }
+    if ($next.length === 0) {
+        $next = $('div.rochester');
+    }
 
-//     $current.removeClass('current');
+    $current.removeClass('current');
 
-//     $container.hide();
-//     $container.attr('id', $next.attr('class'));
-//     $container.fadeIn(1000);
+    $container.hide();
+    $container.attr('id', $next.attr('class'));
+    $container.fadeIn(1000);
 
-//     $next.addClass('current');
+    $next.addClass('current');
 
-//     setTimeout(function() {
-//         rotate();
-//     }, 6000);
-// }
-// function getParameterByName(name) {
-//     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-//     var regexS = "[\\?&]" + name + "=([^&#]*)";
-//     var regex = new RegExp(regexS);
-//     var results = regex.exec(window.location.href);
-//     if (results === null) {
-//         return "";
-//     }
-//     else {
-//         return decodeURIComponent(results[1].replace(/\+/g, " "));
-//     }
-// }
+    setTimeout(function() {
+        rotate();
+    }, 6000);
+}
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if (results === null) {
+        return "";
+    }
+    else {
+        return decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+}
